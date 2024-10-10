@@ -1,0 +1,14 @@
+---
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: RunnerDeployment
+metadata:
+  name: "${repository_name}"
+  namespace: "${namespace}"
+spec:
+  template:
+    spec:
+      ephemeral: true # runner will be destroyed after completion of the job
+      dockerEnabled: false
+      organization: "${owner}"  # specify name of the organization
+      labels:
+        - "${label}" # runner label

@@ -1,0 +1,3 @@
+variable "github" {}
+#
+variable "repository" {}

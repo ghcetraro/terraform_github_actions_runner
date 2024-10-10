@@ -1,0 +1,19 @@
+name: runner_org_test
+
+on:
+  push:
+    branches:    
+      - 'master'
+
+jobs:
+  master-deploy:
+    runs-on: test-runner-org # label of the runner
+    timeout-minutes: 10
+    steps:
+      #
+      - uses: actions/checkout@master
+      #
+      - name: "hello world"
+        shell: bash
+        run: |
+              echo "hello world"
