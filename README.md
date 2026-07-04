@@ -15,3 +15,26 @@ With this repository you can deploy:
 
 In the credentials folder you have to put the GitHub and Kubernetes credentials  
 
+
+
+---
+
+## Documentación del proyecto
+
+- [Changelog](CHANGELOG.md)
+- [Contribuir](CONTRIBUTING.md)
+
+---
+
+## Seguridad
+
+No commitees secretos, tfvars con credenciales reales ni archivos de state.
+
+Ver [SECURITY.md](SECURITY.md).
+
+---
+
+## Licencia
+
+[MIT](LICENSE) — Copyright (c) Gabriel Cetraro
+
