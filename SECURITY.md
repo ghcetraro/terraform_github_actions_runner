@@ -23,3 +23,5 @@
 ## Reporte de vulnerabilidades
 
 Contactá al mantenedor o usá [GitHub Security Advisories](https://github.com/ghcetraro/terraform_github_actions_runner/security/advisories/new).
+
+Usá `terraform.tfvars.example` como plantilla; nunca subas `*.tfvars` ni `*.tfstate`.
